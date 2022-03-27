@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="CG_Blue">#FF227C9D</color>
+    <color name="Tiffany_Blue">#FF17C3B2</color>
+    <color name="Floral_White">#FFFEF9EF</color>
+    <color name="Maximum_Yellow">#FFFFCB77</color>
+    <color name="Light_Coral">#FFFE6D73</color>
+    <color name="fontColor">#5E5E5E</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
