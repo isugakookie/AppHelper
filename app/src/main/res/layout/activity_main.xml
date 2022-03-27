@@ -44,6 +44,7 @@
                         android:layout_width="125dp"
                         android:layout_height="125dp"
                         android:background="@drawable/facebook"
+                        android:onClick="clickFacebook"
                         android:scaleType="center"
                         app:cornerRadius="10dp"
                         tools:ignore="SpeakableTextPresentCheck" />
@@ -69,6 +70,7 @@
                         android:layout_width="125dp"
                         android:layout_height="125dp"
                         android:background="@drawable/messenger"
+                        android:onClick="clickMessenger"
                         android:scaleType="center"
                         app:cornerRadius="10dp"
                         tools:ignore="SpeakableTextPresentCheck" />
@@ -104,6 +106,7 @@
                         android:layout_height="125dp"
                         android:background="@drawable/google_maps"
                         android:contentDescription="TODO"
+                        android:onClick="clickMap"
                         android:scaleType="center"
                         app:cornerRadius="10dp"
                         tools:ignore="SpeakableTextPresentCheck" />
@@ -129,6 +132,7 @@
                         android:layout_width="125dp"
                         android:layout_height="125dp"
                         android:background="@drawable/google_chrome"
+                        android:onClick="clickChrome"
                         android:scaleType="center"
                         app:cornerRadius="10dp"
                         tools:ignore="SpeakableTextPresentCheck" />
@@ -163,6 +167,7 @@
                         android:layout_width="125dp"
                         android:layout_height="125dp"
                         android:background="@drawable/audible"
+                        android:onClick="clickAudible"
                         android:scaleType="center"
                         app:cornerRadius="10dp"
                         tools:ignore="SpeakableTextPresentCheck" />
@@ -188,6 +193,7 @@
                         android:layout_width="125dp"
                         android:layout_height="125dp"
                         android:background="@drawable/spotify"
+                        android:onClick="clickSpotify"
                         android:scaleType="center"
                         app:cornerRadius="10dp"
                         tools:ignore="SpeakableTextPresentCheck" />
@@ -222,6 +228,7 @@
                         android:layout_width="125dp"
                         android:layout_height="125dp"
                         android:background="@drawable/accu_weather"
+                        android:onClick="clickWeather"
                         android:scaleType="center"
                         app:cornerRadius="10dp"
                         tools:ignore="SpeakableTextPresentCheck" />
@@ -232,7 +239,7 @@
                         android:layout_height="wrap_content"
                         android:text="Accu Weather"
                         android:textAlignment="center"
-                        android:textSize="20sp" />
+                        android:textSize="16sp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -247,6 +254,7 @@
                         android:layout_width="125dp"
                         android:layout_height="125dp"
                         android:background="@drawable/words_with_friends"
+                        android:onClick="clickWords"
                         android:scaleType="center"
                         app:cornerRadius="10dp"
                         tools:ignore="SpeakableTextPresentCheck" />
@@ -257,7 +265,69 @@
                         android:layout_height="wrap_content"
                         android:text="Words with Friends"
                         android:textAlignment="center"
-                        android:textSize="17sp" />
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal|center_vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/message_btn"
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:background="@drawable/google_messages"
+                        android:contentDescription="TODO"
+                        android:onClick="clickMessages"
+                        android:scaleType="center"
+                        app:cornerRadius="10dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <TextView
+                        android:id="@+id/tv9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Messages"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/calendar_btn"
+                        android:layout_width="125dp"
+                        android:layout_height="125dp"
+                        android:background="@drawable/google_calendar"
+                        android:onClick="clickCalendar"
+                        android:scaleType="center"
+                        app:cornerRadius="10dp"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <TextView
+                        android:id="@+id/tv10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Google Calendar"
+                        android:textAlignment="center"
+                        android:textSize="20sp" />
                 </LinearLayout>
 
             </LinearLayout>
